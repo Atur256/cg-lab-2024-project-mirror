@@ -1,0 +1,12 @@
+# Blender 4.1.0 MTL File: 'antennaDish.blend'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/Arthur Schwaiger/OneDrive - Johannes Kepler Universität Linz/Studium/Semester_4/Computer Graphics/GitHub_project/cg-lab-2024-project-Atur256/code/src/textures/papers.co-vu17-metal-circle-round-texture-pattern-white-36-3840x2400-4k-wallpaper.jpg

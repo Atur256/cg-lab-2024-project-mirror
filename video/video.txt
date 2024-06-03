@@ -1,0 +1,2 @@
+Submit a screen recording of your movie project. 
+Either push it to Github or provide a link to an external file server (e.g., Dropbox/Google Drive ...)
