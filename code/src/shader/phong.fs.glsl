@@ -102,7 +102,7 @@ vec4 calculateSimplePointLight(Light light,Material material,vec3 lightVec,vec3 
 		for(float dy = -4.0; dy <= 4.0; dy++) {
 			float subShadowCoeff = 1.0;
 			float zShadowMap = texture2D(depthMap, shadowMapTexCoord3D.xy + vec2(dx/u_shadowMapWidth, dy/u_shadowMapHeight)).r;
-			if (shadowMapTexCoord3D.z > zShadowMap) {
+			if (shadowMapTexCoord3D.z > zShadowMap) { // if the depth value of the current fragment is further away than the value of the fragment in the depth frame buffer, then the coefficient is set to 0 -> shadow
 				subShadowCoeff = 0.0;
 			}
 			sumShadowCoeff += subShadowCoeff;

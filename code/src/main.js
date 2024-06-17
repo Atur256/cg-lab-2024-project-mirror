@@ -249,6 +249,8 @@ function createSceneGraph(gl, resources) {
   // create planets and add them to the sceneGraph
   shadowNode.append(createPlanets());
 
+  // Attention - Spotlight was not implemented correctly.
+
   // create spotlight which looks like a flashlight, as it is positioned in the camera center
   spotLightNode = new SpotLightSGNode();
   spotLightNode.uniform = 'u_spotLight';
